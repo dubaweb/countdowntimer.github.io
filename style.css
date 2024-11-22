@@ -1,0 +1,64 @@
+
+
+body {
+    background-image: url("./weather.webp");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    font-display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #342828;
+    color: black;
+    margin: 0;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: larger;
+    padding-top: 5rem;
+    box-shadow: #ccc;
+    
+}
+
+img {
+    border-radius: 20px;
+}
+
+.countdown-container {
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #cccccc;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    justify-content: center;
+    margin-left: 450px;
+    top: 50px;
+    border-radius: 10px;
+    
+}
+
+#countdown {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 3rem;
+}
+
+.time-block {
+    background: rgba(92, 19, 62, 0.258);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.label {
+    font-size: 0.5em;
+    margin-top: 10px;
+    color: #ccc;
+}
